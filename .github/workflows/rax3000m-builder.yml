@@ -126,4 +126,4 @@ jobs:
         tag: ${{ steps.generate_name.outputs.RELEASE_TAG }}
         body: |
             ## CMCC-RAX3000M-nand
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.ACCOUNTS_JSON }}
